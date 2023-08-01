@@ -31,7 +31,6 @@ div#header a {
     
 
 
-
     div#footer #contact {
         margin: auto;
     }
@@ -85,7 +84,7 @@ div#header a {
 
 div#main {
     margin-top: 60px;
-    width: 300px;
+    width: 400px;
 }
 
 
@@ -111,7 +110,7 @@ div#footer {
 }
 
 div#footer #contact {
-    width: 300px;
+    width: 400px;
     font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
     font-weight: bold;
 }
