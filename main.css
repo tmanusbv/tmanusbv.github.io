@@ -1,10 +1,7 @@
 body {
     vertical-align: middle;
-    background-size: 100%;
     background: url(background.png);
     background-repeat: no-repeat;
-    background-origin: content-box;
-    background-position: 200px 200px;
 }
 
 div#header {
@@ -19,12 +16,44 @@ div#header a {
     text-decoration: none;
 }
 
+@media (max-width: 1200px) {
+    div#main {
+        margin: auto; /* Adjust this value as needed for mobile layout */
+    }
+
+    div#footer #contact {
+        margin: auto;
+    }
+    body {
+        background-position: center 600px;
+        background-size: 300px;
+    }
+}
+
+
+
+@media (min-width: 1201px) {
+    div#main {
+        margin-left: 900px; /* Adjust this value as needed for mobile layout */
+        padding-right: 100px;
+    }
+
+    div#footer #contact {
+        margin-left: 800px;
+    }
+
+
+    body {
+        background-position: 200px 200px;
+        background-size: 500px;
+
+    }
+}
 div#main {
     margin-top: 60px;
-    margin-left: 900px;
     width: 300px;
-    padding-right: 100px;
 }
+
 
 div#main #logo {
     font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
@@ -49,9 +78,7 @@ div#footer {
 }
 
 div#footer #contact {
-    margin-left: 800px;
     width: 300px;
-    display: inline-block;
     font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
     font-size: 16px;
     font-weight: bold;
